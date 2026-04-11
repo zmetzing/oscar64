@@ -71,6 +71,8 @@ struct VIC
 	volatile byte	spr_mcolor1;
 	volatile byte	spr_color[8];
 
+	volatile byte	ext_keymap;
+	volatile byte	ext_2mhz;
 };
 
 // set the 16k Bank for the vic

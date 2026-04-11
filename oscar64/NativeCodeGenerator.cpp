@@ -38081,7 +38081,7 @@ bool NativeCodeBasicBlock::BackwardValuePropagation(void)
 							j++;
 						if (j == mEntryBlocks.Size())
 						{
-							if (ins.mType = ASMIT_INC)
+							if (ins.mType == ASMIT_INC)
 								ins.mType = ASMIT_INX;
 							else
 								ins.mType = ASMIT_DEX;
